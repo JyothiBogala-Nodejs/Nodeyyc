@@ -1,1 +1,1 @@
-[Exercise 1](html)
+[Html exercises](html)
