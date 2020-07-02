@@ -10,9 +10,9 @@
             <fieldset>
                 <legend>User Form</legend>
             <label for="uname">Username</label>
-            <input type="text" id="uname" name="username" placeholder="username" size="30" maxlength="12"><br><br>
+            <input type="text" id="uname" name="username" placeholder="username"  pattern="^[a-zA-Z]+$" title="Input only letters" size="30" maxlength="12" required><br><br>
             <label for="pname">Password</label>
-            <input type="text" id="pname" name="password" placeholder="password" size="30" maxlength="8"><br><br>
+            <input type="text" id="pname" name="password" placeholder="password" pattern="\d+" title="Input only numbers" size="30" maxlength="8"required><br><br>
             
             <br>
            Select your favourite superhero<br>
@@ -46,10 +46,32 @@
             </fieldset>
             
         </form>
-        
+        <form>
 
-
-        
+            <div>
+             <h4>Select your birthday:</h4>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="birthday" value="2015-12-25">
+             </div><br>
+             
+            <div>
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" name="Email" pattern="username@mail.com"  size="30" required>
+            </div><br>
+            
+            <div>
+            <label for="URL">URL</label>
+            <input type="URL" id="URL" name="URL"  placeholder="https://example.com"  pattern="https://" size="30">
+            </div><br>
+           
+            </form><br> 
+            
+            <form action="https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded"">
+            <label for="search"></label>
+            <input type="search" name="q" />
+            <button name="search">Search</button>
+            </form><br>
+            <button name="submit">Submit</button>
         
         
 
