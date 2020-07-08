@@ -1,2 +1,2 @@
-[Html exercises](html)<br><br>
+[Html exercises](html)<br>
 [CSS exercises](css)
