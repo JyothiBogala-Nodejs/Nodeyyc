@@ -1,0 +1,10 @@
+let age = 21;
+let phone = 12345678;
+let streetName = 'ggjhkh';
+let streetNumber = 45;
+let template1 = `I\'m ${age} years old`;
+let template2 = `My phone number is: ${phone}`;
+let template3 = `I live on ${streetNumber} ${streetName} `;
+console.log(template1);
+console.log(template2);
+console.log(template3);

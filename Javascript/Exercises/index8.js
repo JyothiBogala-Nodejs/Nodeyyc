@@ -1,0 +1,10 @@
+const Firstname="john";
+const Lastname="ryghtu"; 
+const age=33;
+const Address="dfrhgjhjdg";
+const dateOfBirth="12-23-1765";
+console.log('Firstname: ',Firstname);
+console.log('Lastname: ',Lastname);
+console.log('age: ',age);
+console.log('Address: ',Address);
+console.log('dateOfBirth: ',dateOfBirth);
